@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+h2 {
+  padding-top: 40px;
+}
+.nav-item {
+  padding: 10px 40px;
+}
+.nav-item a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.nav-item a:hover {
+  color: #ffcc00;
+}
+#addContacts, #search {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #dfdfdf;
+  display: block;
+}
+#search {
+  border: none;
+}
+.btn-success {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto 0;
+  display: block;
+}
+.list {
+  width: 100%;
+  max-width: 800px;
+}
+.list .row.contacts {
+  padding: 10px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+.list span {
+  font-weight: 700;
+}
+.searchResult {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #dfdfdf;
+  margin: 0 auto;
+}
