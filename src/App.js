@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Form from './components/Form'
 import List from './components/List'
 import Search from './components/Search'
+import NotFound from './components/NotFound'
 import './App.css';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/" element={!maxLimit && <Form data = {data} update = {updateState} />} />
           <Route path="/list" element={<List data = {data} />} />
           <Route path="/search" element={<Search data = {data} />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
